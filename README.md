@@ -137,7 +137,7 @@ Choose how Saathi looks in **Settings**:
 
 ---
 
-## ⚙️ How it works
+## 🧩 How it works
 
 ```mermaid
 flowchart LR
@@ -284,7 +284,7 @@ Browser checks need local test accounts: copy `backend/seed/dev_users.example.js
 
 ---
 
-## ⚠️ Honest limits
+## 🚧 Honest limits
 
 - **39 single signs**, word by word — not continuous signing and not ISL grammar.
 - Tested on **recordings**, not yet with new people at real webcams; INCLUDE has no signer IDs, so no evaluation
