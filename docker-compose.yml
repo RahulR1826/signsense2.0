@@ -1,0 +1,75 @@
+# Run the whole app with Docker:   docker compose up --build
+# Then open http://localhost:3000. Secrets come from .env (copy .env.docker.example to .env first).
+# Optional TURN relay for calls across networks:   docker compose --profile turn up --build
+# (see docs/DEPLOYMENT.md before exposing it to the internet).
+#
+# NOTE: Docker is not installed on the development machine, so this file has been reviewed and
+# statically checked but never run. Verify it before relying on it.
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: signsense
+      POSTGRES_USER: signsense
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - db-data:/var/lib/postgresql/data # persistent: survives `docker compose down` (not `down -v`)
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U signsense -d signsense"]
+      interval: 5s
+      retries: 10
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+asyncpg://signsense:${POSTGRES_PASSWORD}@db:5432/signsense
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env (at least 32 characters)}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000"]}
+      ENABLE_DEV_TOOLS: "false"
+      # For a public HTTPS deployment set ENVIRONMENT=production and COOKIE_SECURE=true in .env.
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      # Optional TURN (short-lived credentials; the secret must match coturn's static-auth-secret).
+      TURN_URLS: ${TURN_URLS:-[]}
+      TURN_SECRET: ${TURN_SECRET:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    stop_grace_period: 15s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-}
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+  # Optional: TURN relay (coturn) for calls that can't connect directly (mobile data, strict NATs).
+  turn:
+    image: coturn/coturn:4.6
+    profiles: ["turn"]
+    # Host networking: TURN needs a large UDP port range and the machine's real public address.
+    network_mode: host
+    command:
+      - -c
+      - /etc/coturn/turnserver.conf
+      - --static-auth-secret=${TURN_SECRET:?set TURN_SECRET in .env to use the turn profile}
+      - --realm=${TURN_REALM:-signsense.local}
+    volumes:
+      - ./deploy/coturn/turnserver.conf:/etc/coturn/turnserver.conf:ro
+    restart: unless-stopped
+
+volumes:
+  db-data:

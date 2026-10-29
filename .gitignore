@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.docker.example
+
+# ML artifacts (large; tracked via MLflow / exported separately)
+ml/data/raw/
+ml/data/processed/
+ml/runs/
+mlruns/
+*.pt
+*.ckpt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+ml/data/include/videos/
+ml/mlflow.db
+ml/data/fixtures/
+
+# Local HTTPS certificates (scripts/make_dev_cert.py)
+certs/
+ml/data/include/landmarks/
+ml/data/cache/
+ml/reports/
+
+# Local dev test accounts (plaintext throwaway passwords) — see backend/seed/dev_users.example.json
+backend/seed/dev_users.json

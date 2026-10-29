@@ -1,0 +1,894 @@
+{
+ "oov-adj-alive": {
+  "category": "Adjectives",
+  "word": "alive"
+ },
+ "oov-adj-beautiful": {
+  "category": "Adjectives",
+  "word": "Beautiful"
+ },
+ "oov-adj-big-large": {
+  "category": "Adjectives",
+  "word": "big large"
+ },
+ "oov-adj-blind": {
+  "category": "Adjectives",
+  "word": "Blind"
+ },
+ "oov-adj-cheap": {
+  "category": "Adjectives",
+  "word": "cheap"
+ },
+ "oov-adj-clean": {
+  "category": "Adjectives",
+  "word": "clean"
+ },
+ "oov-adj-cool": {
+  "category": "Adjectives",
+  "word": "cool"
+ },
+ "oov-adj-curved": {
+  "category": "Adjectives",
+  "word": "curved"
+ },
+ "oov-adj-dead": {
+  "category": "Adjectives",
+  "word": "dead"
+ },
+ "oov-adj-deaf": {
+  "category": "Adjectives",
+  "word": "Deaf"
+ },
+ "oov-adj-deep": {
+  "category": "Adjectives",
+  "word": "deep"
+ },
+ "oov-adj-dirty": {
+  "category": "Adjectives",
+  "word": "dirty"
+ },
+ "oov-adj-dry": {
+  "category": "Adjectives",
+  "word": "dry"
+ },
+ "oov-adj-expensive": {
+  "category": "Adjectives",
+  "word": "expensive"
+ },
+ "oov-adj-famous": {
+  "category": "Adjectives",
+  "word": "famous"
+ },
+ "oov-adj-fast": {
+  "category": "Adjectives",
+  "word": "fast"
+ },
+ "oov-adj-female": {
+  "category": "Adjectives",
+  "word": "female"
+ },
+ "oov-adj-flat": {
+  "category": "Adjectives",
+  "word": "flat"
+ },
+ "oov-adj-hard": {
+  "category": "Adjectives",
+  "word": "hard"
+ },
+ "oov-adj-heavy": {
+  "category": "Adjectives",
+  "word": "heavy"
+ },
+ "oov-adj-high": {
+  "category": "Adjectives",
+  "word": "high"
+ },
+ "oov-adj-light": {
+  "category": "Adjectives",
+  "word": "light"
+ },
+ "oov-adj-long": {
+  "category": "Adjectives",
+  "word": "long"
+ },
+ "oov-adj-loose": {
+  "category": "Adjectives",
+  "word": "loose"
+ },
+ "oov-adj-loud": {
+  "category": "Adjectives",
+  "word": "loud"
+ },
+ "oov-adj-low": {
+  "category": "Adjectives",
+  "word": "low"
+ },
+ "oov-adj-male": {
+  "category": "Adjectives",
+  "word": "male"
+ },
+ "oov-adj-mean": {
+  "category": "Adjectives",
+  "word": "Mean"
+ },
+ "oov-adj-narrow": {
+  "category": "Adjectives",
+  "word": "narrow"
+ },
+ "oov-adj-new": {
+  "category": "Adjectives",
+  "word": "new"
+ },
+ "oov-adj-nice": {
+  "category": "Adjectives",
+  "word": "Nice"
+ },
+ "oov-adj-old": {
+  "category": "Adjectives",
+  "word": "old"
+ },
+ "oov-adj-poor": {
+  "category": "Adjectives",
+  "word": "poor"
+ },
+ "oov-adj-quiet": {
+  "category": "Adjectives",
+  "word": "quiet"
+ },
+ "oov-adj-rich": {
+  "category": "Adjectives",
+  "word": "rich"
+ },
+ "oov-adj-shallow": {
+  "category": "Adjectives",
+  "word": "shallow"
+ },
+ "oov-adj-short": {
+  "category": "Adjectives",
+  "word": "short"
+ },
+ "oov-adj-slow": {
+  "category": "Adjectives",
+  "word": "slow"
+ },
+ "oov-adj-small-little": {
+  "category": "Adjectives",
+  "word": "small little"
+ },
+ "oov-adj-soft": {
+  "category": "Adjectives",
+  "word": "soft"
+ },
+ "oov-adj-strong": {
+  "category": "Adjectives",
+  "word": "strong"
+ },
+ "oov-adj-tall": {
+  "category": "Adjectives",
+  "word": "tall"
+ },
+ "oov-adj-thick": {
+  "category": "Adjectives",
+  "word": "thick"
+ },
+ "oov-adj-thin": {
+  "category": "Adjectives",
+  "word": "thin"
+ },
+ "oov-adj-tight": {
+  "category": "Adjectives",
+  "word": "tight"
+ },
+ "oov-adj-ugly": {
+  "category": "Adjectives",
+  "word": "Ugly"
+ },
+ "oov-adj-warm": {
+  "category": "Adjectives",
+  "word": "warm"
+ },
+ "oov-adj-weak": {
+  "category": "Adjectives",
+  "word": "weak"
+ },
+ "oov-adj-wet": {
+  "category": "Adjectives",
+  "word": "wet"
+ },
+ "oov-adj-wide": {
+  "category": "Adjectives",
+  "word": "wide"
+ },
+ "oov-adj-young": {
+  "category": "Adjectives",
+  "word": "young"
+ },
+ "oov-ani-animal": {
+  "category": "Animals",
+  "word": "Animal"
+ },
+ "oov-ani-bird": {
+  "category": "Animals",
+  "word": "Bird"
+ },
+ "oov-ani-cat": {
+  "category": "Animals",
+  "word": "Cat"
+ },
+ "oov-ani-cow": {
+  "category": "Animals",
+  "word": "Cow"
+ },
+ "oov-ani-dog": {
+  "category": "Animals",
+  "word": "Dog"
+ },
+ "oov-ani-fish": {
+  "category": "Animals",
+  "word": "Fish"
+ },
+ "oov-ani-horse": {
+  "category": "Animals",
+  "word": "Horse"
+ },
+ "oov-ani-mouse": {
+  "category": "Animals",
+  "word": "Mouse"
+ },
+ "oov-clo-clothing": {
+  "category": "Clothes",
+  "word": "Clothing"
+ },
+ "oov-clo-dress": {
+  "category": "Clothes",
+  "word": "Dress"
+ },
+ "oov-clo-hat": {
+  "category": "Clothes",
+  "word": "Hat"
+ },
+ "oov-clo-pant": {
+  "category": "Clothes",
+  "word": "Pant"
+ },
+ "oov-clo-pocket": {
+  "category": "Clothes",
+  "word": "Pocket"
+ },
+ "oov-clo-shirt": {
+  "category": "Clothes",
+  "word": "Shirt"
+ },
+ "oov-clo-shoes": {
+  "category": "Clothes",
+  "word": "Shoes"
+ },
+ "oov-clo-skirt": {
+  "category": "Clothes",
+  "word": "Skirt"
+ },
+ "oov-clo-suit": {
+  "category": "Clothes",
+  "word": "Suit"
+ },
+ "oov-clo-t-shirt": {
+  "category": "Clothes",
+  "word": "T-Shirt"
+ },
+ "oov-col-black": {
+  "category": "Colours",
+  "word": "Black"
+ },
+ "oov-col-blue": {
+  "category": "Colours",
+  "word": "Blue"
+ },
+ "oov-col-brown": {
+  "category": "Colours",
+  "word": "Brown"
+ },
+ "oov-col-colour": {
+  "category": "Colours",
+  "word": "Colour"
+ },
+ "oov-col-green": {
+  "category": "Colours",
+  "word": "Green"
+ },
+ "oov-col-grey": {
+  "category": "Colours",
+  "word": "Grey"
+ },
+ "oov-col-orange": {
+  "category": "Colours",
+  "word": "Orange"
+ },
+ "oov-col-pink": {
+  "category": "Colours",
+  "word": "Pink"
+ },
+ "oov-col-red": {
+  "category": "Colours",
+  "word": "Red"
+ },
+ "oov-col-white": {
+  "category": "Colours",
+  "word": "White"
+ },
+ "oov-col-yellow": {
+  "category": "Colours",
+  "word": "Yellow"
+ },
+ "oov-day-afternoon": {
+  "category": "Days_and_Time",
+  "word": "Afternoon"
+ },
+ "oov-day-evening": {
+  "category": "Days_and_Time",
+  "word": "Evening"
+ },
+ "oov-day-friday": {
+  "category": "Days_and_Time",
+  "word": "Friday"
+ },
+ "oov-day-hour": {
+  "category": "Days_and_Time",
+  "word": "Hour"
+ },
+ "oov-day-minute": {
+  "category": "Days_and_Time",
+  "word": "Minute"
+ },
+ "oov-day-monday": {
+  "category": "Days_and_Time",
+  "word": "Monday"
+ },
+ "oov-day-month": {
+  "category": "Days_and_Time",
+  "word": "Month"
+ },
+ "oov-day-saturday": {
+  "category": "Days_and_Time",
+  "word": "Saturday"
+ },
+ "oov-day-second": {
+  "category": "Days_and_Time",
+  "word": "Second"
+ },
+ "oov-day-sunday": {
+  "category": "Days_and_Time",
+  "word": "Sunday"
+ },
+ "oov-day-thursday": {
+  "category": "Days_and_Time",
+  "word": "Thursday"
+ },
+ "oov-day-time": {
+  "category": "Days_and_Time",
+  "word": "Time"
+ },
+ "oov-day-tuesday": {
+  "category": "Days_and_Time",
+  "word": "Tuesday"
+ },
+ "oov-day-wednesday": {
+  "category": "Days_and_Time",
+  "word": "Wednesday"
+ },
+ "oov-day-week": {
+  "category": "Days_and_Time",
+  "word": "Week"
+ },
+ "oov-day-year": {
+  "category": "Days_and_Time",
+  "word": "Year"
+ },
+ "oov-ele-camera": {
+  "category": "Electronics",
+  "word": "Camera"
+ },
+ "oov-ele-cell-phone": {
+  "category": "Electronics",
+  "word": "Cell phone"
+ },
+ "oov-ele-clock": {
+  "category": "Electronics",
+  "word": "Clock"
+ },
+ "oov-ele-computer": {
+  "category": "Electronics",
+  "word": "Computer"
+ },
+ "oov-ele-fan": {
+  "category": "Electronics",
+  "word": "Fan"
+ },
+ "oov-ele-lamp": {
+  "category": "Electronics",
+  "word": "Lamp"
+ },
+ "oov-ele-laptop": {
+  "category": "Electronics",
+  "word": "Laptop"
+ },
+ "oov-ele-radio": {
+  "category": "Electronics",
+  "word": "Radio"
+ },
+ "oov-ele-screen": {
+  "category": "Electronics",
+  "word": "Screen"
+ },
+ "oov-ele-television": {
+  "category": "Electronics",
+  "word": "Television"
+ },
+ "oov-gre-alright": {
+  "category": "Greetings",
+  "word": "Alright"
+ },
+ "oov-gre-good-afternoon": {
+  "category": "Greetings",
+  "word": "Good afternoon"
+ },
+ "oov-gre-good-evening": {
+  "category": "Greetings",
+  "word": "Good evening"
+ },
+ "oov-gre-pleased": {
+  "category": "Greetings",
+  "word": "Pleased"
+ },
+ "oov-hom-bag": {
+  "category": "Home",
+  "word": "Bag"
+ },
+ "oov-hom-bedroom": {
+  "category": "Home",
+  "word": "Bedroom"
+ },
+ "oov-hom-book": {
+  "category": "Home",
+  "word": "Book"
+ },
+ "oov-hom-box": {
+  "category": "Home",
+  "word": "Box"
+ },
+ "oov-hom-card": {
+  "category": "Home",
+  "word": "Card"
+ },
+ "oov-hom-chair": {
+  "category": "Home",
+  "word": "Chair"
+ },
+ "oov-hom-door": {
+  "category": "Home",
+  "word": "Door"
+ },
+ "oov-hom-dream": {
+  "category": "Home",
+  "word": "Dream"
+ },
+ "oov-hom-gift": {
+  "category": "Home",
+  "word": "Gift"
+ },
+ "oov-hom-key": {
+  "category": "Home",
+  "word": "Key"
+ },
+ "oov-hom-kitchen": {
+  "category": "Home",
+  "word": "Kitchen"
+ },
+ "oov-hom-letter": {
+  "category": "Home",
+  "word": "Letter"
+ },
+ "oov-hom-lock": {
+  "category": "Home",
+  "word": "Lock"
+ },
+ "oov-hom-page": {
+  "category": "Home",
+  "word": "Page"
+ },
+ "oov-hom-paint": {
+  "category": "Home",
+  "word": "Paint"
+ },
+ "oov-hom-paper": {
+  "category": "Home",
+  "word": "Paper"
+ },
+ "oov-hom-pen": {
+  "category": "Home",
+  "word": "Pen"
+ },
+ "oov-hom-pencil": {
+  "category": "Home",
+  "word": "Pencil"
+ },
+ "oov-hom-photograph": {
+  "category": "Home",
+  "word": "Photograph"
+ },
+ "oov-hom-ring": {
+  "category": "Home",
+  "word": "Ring"
+ },
+ "oov-hom-soap": {
+  "category": "Home",
+  "word": "Soap"
+ },
+ "oov-hom-table": {
+  "category": "Home",
+  "word": "Table"
+ },
+ "oov-hom-tool": {
+  "category": "Home",
+  "word": "Tool"
+ },
+ "oov-hom-window": {
+  "category": "Home",
+  "word": "Window"
+ },
+ "oov-job-actor": {
+  "category": "Jobs",
+  "word": "Actor"
+ },
+ "oov-job-artist": {
+  "category": "Jobs",
+  "word": "Artist"
+ },
+ "oov-job-author": {
+  "category": "Jobs",
+  "word": "Author"
+ },
+ "oov-job-job": {
+  "category": "Jobs",
+  "word": "Job"
+ },
+ "oov-job-lawyer": {
+  "category": "Jobs",
+  "word": "Lawyer"
+ },
+ "oov-job-manager": {
+  "category": "Jobs",
+  "word": "Manager"
+ },
+ "oov-job-patient": {
+  "category": "Jobs",
+  "word": "Patient"
+ },
+ "oov-job-police": {
+  "category": "Jobs",
+  "word": "Police"
+ },
+ "oov-job-priest": {
+  "category": "Jobs",
+  "word": "Priest"
+ },
+ "oov-job-reporter": {
+  "category": "Jobs",
+  "word": "Reporter"
+ },
+ "oov-job-secretary": {
+  "category": "Jobs",
+  "word": "Secretary"
+ },
+ "oov-job-soldier": {
+  "category": "Jobs",
+  "word": "Soldier"
+ },
+ "oov-job-student": {
+  "category": "Jobs",
+  "word": "Student"
+ },
+ "oov-job-teacher": {
+  "category": "Jobs",
+  "word": "Teacher"
+ },
+ "oov-job-waiter": {
+  "category": "Jobs",
+  "word": "Waiter"
+ },
+ "oov-mea-bicycle": {
+  "category": "Means_of_Transportation",
+  "word": "Bicycle"
+ },
+ "oov-mea-boat": {
+  "category": "Means_of_Transportation",
+  "word": "Boat"
+ },
+ "oov-mea-bus": {
+  "category": "Means_of_Transportation",
+  "word": "Bus"
+ },
+ "oov-mea-car": {
+  "category": "Means_of_Transportation",
+  "word": "Car"
+ },
+ "oov-mea-plane": {
+  "category": "Means_of_Transportation",
+  "word": "Plane"
+ },
+ "oov-mea-train": {
+  "category": "Means_of_Transportation",
+  "word": "Train"
+ },
+ "oov-mea-train-ticket": {
+  "category": "Means_of_Transportation",
+  "word": "train ticket"
+ },
+ "oov-mea-transportation": {
+  "category": "Means_of_Transportation",
+  "word": "Transportation"
+ },
+ "oov-mea-truck": {
+  "category": "Means_of_Transportation",
+  "word": "Truck"
+ },
+ "oov-peo-adult": {
+  "category": "People",
+  "word": "Adult"
+ },
+ "oov-peo-boy": {
+  "category": "People",
+  "word": "Boy"
+ },
+ "oov-peo-child": {
+  "category": "People",
+  "word": "Child"
+ },
+ "oov-peo-crowd": {
+  "category": "People",
+  "word": "Crowd"
+ },
+ "oov-peo-daughter": {
+  "category": "People",
+  "word": "Daughter"
+ },
+ "oov-peo-girl": {
+  "category": "People",
+  "word": "Girl"
+ },
+ "oov-peo-husband": {
+  "category": "People",
+  "word": "Husband"
+ },
+ "oov-peo-king": {
+  "category": "People",
+  "word": "King"
+ },
+ "oov-peo-man": {
+  "category": "People",
+  "word": "Man"
+ },
+ "oov-peo-neighbour": {
+  "category": "People",
+  "word": "Neighbour"
+ },
+ "oov-peo-parent": {
+  "category": "People",
+  "word": "Parent"
+ },
+ "oov-peo-player": {
+  "category": "People",
+  "word": "Player"
+ },
+ "oov-peo-president": {
+  "category": "People",
+  "word": "President"
+ },
+ "oov-peo-queen": {
+  "category": "People",
+  "word": "Queen"
+ },
+ "oov-peo-son": {
+  "category": "People",
+  "word": "Son"
+ },
+ "oov-peo-wife": {
+  "category": "People",
+  "word": "Wife"
+ },
+ "oov-peo-woman": {
+  "category": "People",
+  "word": "Woman"
+ },
+ "oov-pla-bank": {
+  "category": "Places",
+  "word": "Bank"
+ },
+ "oov-pla-city": {
+  "category": "Places",
+  "word": "City"
+ },
+ "oov-pla-court": {
+  "category": "Places",
+  "word": "Court"
+ },
+ "oov-pla-ground": {
+  "category": "Places",
+  "word": "Ground"
+ },
+ "oov-pla-india": {
+  "category": "Places",
+  "word": "India"
+ },
+ "oov-pla-library": {
+  "category": "Places",
+  "word": "Library"
+ },
+ "oov-pla-location": {
+  "category": "Places",
+  "word": "Location"
+ },
+ "oov-pla-market": {
+  "category": "Places",
+  "word": "Market"
+ },
+ "oov-pla-office": {
+  "category": "Places",
+  "word": "Office"
+ },
+ "oov-pla-park": {
+  "category": "Places",
+  "word": "Park"
+ },
+ "oov-pla-restaurant": {
+  "category": "Places",
+  "word": "Restaurant"
+ },
+ "oov-pla-street-or-road": {
+  "category": "Places",
+  "word": "Street or Road"
+ },
+ "oov-pla-temple": {
+  "category": "Places",
+  "word": "Temple"
+ },
+ "oov-pla-train-station": {
+  "category": "Places",
+  "word": "Train Station"
+ },
+ "oov-pla-university": {
+  "category": "Places",
+  "word": "University"
+ },
+ "oov-pro-he": {
+  "category": "Pronouns",
+  "word": "he"
+ },
+ "oov-pro-it": {
+  "category": "Pronouns",
+  "word": "it"
+ },
+ "oov-pro-she": {
+  "category": "Pronouns",
+  "word": "she"
+ },
+ "oov-pro-they": {
+  "category": "Pronouns",
+  "word": "they"
+ },
+ "oov-pro-we": {
+  "category": "Pronouns",
+  "word": "we"
+ },
+ "oov-pro-you-plural": {
+  "category": "Pronouns",
+  "word": "you (plural)"
+ },
+ "oov-sea-fall": {
+  "category": "Seasons",
+  "word": "Fall"
+ },
+ "oov-sea-monsoon": {
+  "category": "Seasons",
+  "word": "Monsoon"
+ },
+ "oov-sea-season": {
+  "category": "Seasons",
+  "word": "Season"
+ },
+ "oov-sea-spring": {
+  "category": "Seasons",
+  "word": "Spring"
+ },
+ "oov-sea-summer": {
+  "category": "Seasons",
+  "word": "Summer"
+ },
+ "oov-sea-winter": {
+  "category": "Seasons",
+  "word": "Winter"
+ },
+ "oov-soc-attack": {
+  "category": "Society",
+  "word": "Attack"
+ },
+ "oov-soc-ball": {
+  "category": "Society",
+  "word": "Ball"
+ },
+ "oov-soc-bill": {
+  "category": "Society",
+  "word": "Bill"
+ },
+ "oov-soc-death": {
+  "category": "Society",
+  "word": "Death"
+ },
+ "oov-soc-election": {
+  "category": "Society",
+  "word": "Election"
+ },
+ "oov-soc-energy": {
+  "category": "Society",
+  "word": "Energy"
+ },
+ "oov-soc-exercise": {
+  "category": "Society",
+  "word": "Exercise"
+ },
+ "oov-soc-god": {
+  "category": "Society",
+  "word": "God"
+ },
+ "oov-soc-gun": {
+  "category": "Society",
+  "word": "Gun"
+ },
+ "oov-soc-marriage": {
+  "category": "Society",
+  "word": "Marriage"
+ },
+ "oov-soc-newspaper": {
+  "category": "Society",
+  "word": "Newspaper"
+ },
+ "oov-soc-peace": {
+  "category": "Society",
+  "word": "Peace"
+ },
+ "oov-soc-price": {
+  "category": "Society",
+  "word": "Price"
+ },
+ "oov-soc-race-ethnicity": {
+  "category": "Society",
+  "word": "Race (ethnicity)"
+ },
+ "oov-soc-religion": {
+  "category": "Society",
+  "word": "Religion"
+ },
+ "oov-soc-science": {
+  "category": "Society",
+  "word": "Science"
+ },
+ "oov-soc-sign": {
+  "category": "Society",
+  "word": "Sign"
+ },
+ "oov-soc-sport": {
+  "category": "Society",
+  "word": "Sport"
+ },
+ "oov-soc-team": {
+  "category": "Society",
+  "word": "Team"
+ },
+ "oov-soc-technology": {
+  "category": "Society",
+  "word": "Technology"
+ },
+ "oov-soc-war": {
+  "category": "Society",
+  "word": "War"
+ }
+}

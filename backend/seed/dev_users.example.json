@@ -1,0 +1,17 @@
+{
+  "note": "Copy to dev_users.json (git-ignored) and create these accounts on your local backend (sign up in the app). The browser checks in frontend/scripts sign in with users[0]. Use throwaway passwords only.",
+  "users": [
+    {
+      "name": "Dev Signer",
+      "email": "dev.user1@example.com",
+      "password": "CHANGE_ME_min_8_chars",
+      "mode": "signer"
+    },
+    {
+      "name": "Dev Hearing",
+      "email": "dev.user2@example.com",
+      "password": "CHANGE_ME_min_8_chars",
+      "mode": "non_signer"
+    }
+  ]
+}

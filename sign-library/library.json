@@ -1,0 +1,592 @@
+{
+  "version": 1,
+  "language": "ISL",
+  "attribution": "Saathi's sign motions are derived from body and hand landmarks of INCLUDE videos (Sridhar, Ganesan, Kumar, Khapra; ACM MM 2020), CC BY 4.0 — https://zenodo.org/records/4010759. No video of the signers is shown.",
+  "signs": [
+    {
+      "id": "hello",
+      "label": "Hello",
+      "category": "greeting",
+      "video": "videos/hello.mp4",
+      "poster": "posters/hello.jpg",
+      "duration": 1.76,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Hello/Greetings__Hello__MVI_9954.MOV"
+      },
+      "anim": "anim/hello.json",
+      "video3d": "saathi3d/hello.mp4",
+      "poster3d": "saathi3d/hello.jpg"
+    },
+    {
+      "id": "thank_you",
+      "label": "Thank you",
+      "category": "greeting",
+      "video": "videos/thank_you.mp4",
+      "poster": "posters/thank_you.jpg",
+      "duration": 1.78,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Thank you/Greetings__Thank_you__MVI_0007.MOV"
+      },
+      "anim": "anim/thank_you.json",
+      "video3d": "saathi3d/thank_you.mp4",
+      "poster3d": "saathi3d/thank_you.jpg"
+    },
+    {
+      "id": "how_are_you",
+      "label": "How are you",
+      "category": "greeting",
+      "video": "videos/how_are_you.mp4",
+      "poster": "posters/how_are_you.jpg",
+      "duration": 3.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/How are you/Greetings__How_are_you__MVI_0036.MOV"
+      },
+      "anim": "anim/how_are_you.json",
+      "video3d": "saathi3d/how_are_you.mp4",
+      "poster3d": "saathi3d/how_are_you.jpg"
+    },
+    {
+      "id": "good_morning",
+      "label": "Good morning",
+      "category": "greeting",
+      "video": "videos/good_morning.mp4",
+      "poster": "posters/good_morning.jpg",
+      "duration": 2.48,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Good Morning/Greetings__Good_Morning__MVI_0046.MOV"
+      },
+      "anim": "anim/good_morning.json",
+      "video3d": "saathi3d/good_morning.mp4",
+      "poster3d": "saathi3d/good_morning.jpg"
+    },
+    {
+      "id": "good_night",
+      "label": "Good night",
+      "category": "greeting",
+      "video": "videos/good_night.mp4",
+      "poster": "posters/good_night.jpg",
+      "duration": 2.44,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Good night/Greetings__Good_night__MVI_9983.MOV"
+      },
+      "anim": "anim/good_night.json",
+      "video3d": "saathi3d/good_night.mp4",
+      "poster3d": "saathi3d/good_night.jpg"
+    },
+    {
+      "id": "mother",
+      "label": "Mother",
+      "category": "family",
+      "video": "videos/mother.mp4",
+      "poster": "posters/mother.jpg",
+      "duration": 1.68,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Mother/People__Mother__MVI_4057.MOV"
+      },
+      "anim": "anim/mother.json",
+      "video3d": "saathi3d/mother.mp4",
+      "poster3d": "saathi3d/mother.jpg"
+    },
+    {
+      "id": "father",
+      "label": "Father",
+      "category": "family",
+      "video": "videos/father.mp4",
+      "poster": "posters/father.jpg",
+      "duration": 1.94,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Father/People__Father__MVI_3763.MOV"
+      },
+      "anim": "anim/father.json",
+      "video3d": "saathi3d/father.mp4",
+      "poster3d": "saathi3d/father.jpg"
+    },
+    {
+      "id": "brother",
+      "label": "Brother",
+      "category": "family",
+      "video": "videos/brother.mp4",
+      "poster": "posters/brother.jpg",
+      "duration": 1.84,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Brother/People__Brother__MVI_3781.MOV"
+      },
+      "anim": "anim/brother.json",
+      "video3d": "saathi3d/brother.mp4",
+      "poster3d": "saathi3d/brother.jpg"
+    },
+    {
+      "id": "sister",
+      "label": "Sister",
+      "category": "family",
+      "video": "videos/sister.mp4",
+      "poster": "posters/sister.jpg",
+      "duration": 2.6,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Sister/People__Sister__MVI_3931.MOV"
+      },
+      "anim": "anim/sister.json",
+      "video3d": "saathi3d/sister.mp4",
+      "poster3d": "saathi3d/sister.jpg"
+    },
+    {
+      "id": "grandmother",
+      "label": "Grandmother",
+      "category": "family",
+      "video": "videos/grandmother.mp4",
+      "poster": "posters/grandmother.jpg",
+      "duration": 3.06,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Grandmother/People__Grandmother__MVI_3940.MOV"
+      },
+      "anim": "anim/grandmother.json",
+      "video3d": "saathi3d/grandmother.mp4",
+      "poster3d": "saathi3d/grandmother.jpg"
+    },
+    {
+      "id": "grandfather",
+      "label": "Grandfather",
+      "category": "family",
+      "video": "videos/grandfather.mp4",
+      "poster": "posters/grandfather.jpg",
+      "duration": 3.14,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Grandfather/People__Grandfather__MVI_3937.MOV"
+      },
+      "anim": "anim/grandfather.json",
+      "video3d": "saathi3d/grandfather.mp4",
+      "poster3d": "saathi3d/grandfather.jpg"
+    },
+    {
+      "id": "friend",
+      "label": "Friend",
+      "category": "family",
+      "video": "videos/friend.mp4",
+      "poster": "posters/friend.jpg",
+      "duration": 1.86,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Friend/People__Friend__MVI_3977.MOV"
+      },
+      "anim": "anim/friend.json",
+      "video3d": "saathi3d/friend.mp4",
+      "poster3d": "saathi3d/friend.jpg"
+    },
+    {
+      "id": "baby",
+      "label": "Baby",
+      "category": "family",
+      "video": "videos/baby.mp4",
+      "poster": "posters/baby.jpg",
+      "duration": 1.72,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Baby/People__Baby__MVI_4067.MOV"
+      },
+      "anim": "anim/baby.json",
+      "video3d": "saathi3d/baby.mp4",
+      "poster3d": "saathi3d/baby.jpg"
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "category": "family",
+      "video": "videos/family.mp4",
+      "poster": "posters/family.jpg",
+      "duration": 1.8,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Family/People__Family__MVI_4081.MOV"
+      },
+      "anim": "anim/family.json",
+      "video3d": "saathi3d/family.mp4",
+      "poster3d": "saathi3d/family.jpg"
+    },
+    {
+      "id": "i",
+      "label": "I / me",
+      "category": "people",
+      "video": "videos/i.mp4",
+      "poster": "posters/i.jpg",
+      "duration": 1.42,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Pronouns/I/Pronouns__I__MVI_9959.MOV"
+      },
+      "anim": "anim/i.json",
+      "video3d": "saathi3d/i.mp4",
+      "poster3d": "saathi3d/i.jpg"
+    },
+    {
+      "id": "you",
+      "label": "You",
+      "category": "people",
+      "video": "videos/you.mp4",
+      "poster": "posters/you.jpg",
+      "duration": 1.8,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Pronouns/you/Pronouns__you__MVI_9997.MOV"
+      },
+      "anim": "anim/you.json",
+      "video3d": "saathi3d/you.mp4",
+      "poster3d": "saathi3d/you.jpg"
+    },
+    {
+      "id": "sick",
+      "label": "Sick",
+      "category": "health",
+      "video": "videos/sick.mp4",
+      "poster": "posters/sick.jpg",
+      "duration": 1.84,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/sick/Adjectives__sick__MVI_9444.MOV"
+      },
+      "anim": "anim/sick.json",
+      "video3d": "saathi3d/sick.mp4",
+      "poster3d": "saathi3d/sick.jpg"
+    },
+    {
+      "id": "healthy",
+      "label": "Healthy",
+      "category": "health",
+      "video": "videos/healthy.mp4",
+      "poster": "posters/healthy.jpg",
+      "duration": 2.42,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/healthy/Adjectives__healthy__MVI_9530.MOV"
+      },
+      "anim": "anim/healthy.json",
+      "video3d": "saathi3d/healthy.mp4",
+      "poster3d": "saathi3d/healthy.jpg"
+    },
+    {
+      "id": "doctor",
+      "label": "Doctor",
+      "category": "health",
+      "video": "videos/doctor.mp4",
+      "poster": "posters/doctor.jpg",
+      "duration": 1.76,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Jobs/Doctor/Jobs__Doctor__MVI_4754.MOV"
+      },
+      "anim": "anim/doctor.json",
+      "video3d": "saathi3d/doctor.mp4",
+      "poster3d": "saathi3d/doctor.jpg"
+    },
+    {
+      "id": "hospital",
+      "label": "Hospital",
+      "category": "health",
+      "video": "videos/hospital.mp4",
+      "poster": "posters/hospital.jpg",
+      "duration": 2.28,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/Hospital/Places__Hospital__MVI_3315.MOV"
+      },
+      "anim": "anim/hospital.json",
+      "video3d": "saathi3d/hospital.mp4",
+      "poster3d": "saathi3d/hospital.jpg"
+    },
+    {
+      "id": "medicine",
+      "label": "Medicine",
+      "category": "health",
+      "video": "videos/medicine.mp4",
+      "poster": "posters/medicine.jpg",
+      "duration": 1.8,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Society/Medicine/Society__Medicine__MVI_8934.MP4"
+      },
+      "anim": "anim/medicine.json",
+      "video3d": "saathi3d/medicine.mp4",
+      "poster3d": "saathi3d/medicine.jpg"
+    },
+    {
+      "id": "hot",
+      "label": "Hot",
+      "category": "feeling",
+      "video": "videos/hot.mp4",
+      "poster": "posters/hot.jpg",
+      "duration": 2.38,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/hot/Adjectives__hot__MVI_9489.MOV"
+      },
+      "anim": "anim/hot.json",
+      "video3d": "saathi3d/hot.mp4",
+      "poster3d": "saathi3d/hot.jpg"
+    },
+    {
+      "id": "cold",
+      "label": "Cold",
+      "category": "feeling",
+      "video": "videos/cold.mp4",
+      "poster": "posters/cold.jpg",
+      "duration": 2.62,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/cold/Adjectives__cold__MVI_9490.MOV"
+      },
+      "anim": "anim/cold.json",
+      "video3d": "saathi3d/cold.mp4",
+      "poster3d": "saathi3d/cold.jpg"
+    },
+    {
+      "id": "good",
+      "label": "Good",
+      "category": "feeling",
+      "video": "videos/good.mp4",
+      "poster": "posters/good.jpg",
+      "duration": 1.9,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/good/Adjectives__good__MVI_9512.MOV"
+      },
+      "anim": "anim/good.json",
+      "video3d": "saathi3d/good.mp4",
+      "poster3d": "saathi3d/good.jpg"
+    },
+    {
+      "id": "bad",
+      "label": "Bad",
+      "category": "feeling",
+      "video": "videos/bad.mp4",
+      "poster": "posters/bad.jpg",
+      "duration": 1.44,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/bad/Adjectives__bad__MVI_5241.MOV"
+      },
+      "anim": "anim/bad.json",
+      "video3d": "saathi3d/bad.mp4",
+      "poster3d": "saathi3d/bad.jpg"
+    },
+    {
+      "id": "happy",
+      "label": "Happy",
+      "category": "feeling",
+      "video": "videos/happy.mp4",
+      "poster": "posters/happy.jpg",
+      "duration": 2.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/happy/Adjectives__happy__MVI_9540.MOV"
+      },
+      "anim": "anim/happy.json",
+      "video3d": "saathi3d/happy.mp4",
+      "poster3d": "saathi3d/happy.jpg"
+    },
+    {
+      "id": "sad",
+      "label": "Sad",
+      "category": "feeling",
+      "video": "videos/sad.mp4",
+      "poster": "posters/sad.jpg",
+      "duration": 1.44,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/sad/Adjectives__sad__MVI_9565.MOV"
+      },
+      "anim": "anim/sad.json",
+      "video3d": "saathi3d/sad.mp4",
+      "poster3d": "saathi3d/sad.jpg"
+    },
+    {
+      "id": "house",
+      "label": "House / home",
+      "category": "place",
+      "video": "videos/house.mp4",
+      "poster": "posters/house.jpg",
+      "duration": 1.88,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/House/Places__House__MVI_3438.MOV"
+      },
+      "anim": "anim/house.json",
+      "video3d": "saathi3d/house.mp4",
+      "poster3d": "saathi3d/house.jpg"
+    },
+    {
+      "id": "school",
+      "label": "School",
+      "category": "place",
+      "video": "videos/school.mp4",
+      "poster": "posters/school.jpg",
+      "duration": 1.92,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/School/Places__School__MVI_3371.MOV"
+      },
+      "anim": "anim/school.json",
+      "video3d": "saathi3d/school.mp4",
+      "poster3d": "saathi3d/school.jpg"
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "category": "place",
+      "video": "videos/shop.mp4",
+      "poster": "posters/shop.jpg",
+      "duration": 1.64,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/Store or Shop/Places__Store_or_Shop__MVI_3472.MOV"
+      },
+      "anim": "anim/shop.json",
+      "video3d": "saathi3d/shop.mp4",
+      "poster3d": "saathi3d/shop.jpg"
+    },
+    {
+      "id": "bathroom",
+      "label": "Bathroom",
+      "category": "place",
+      "video": "videos/bathroom.mp4",
+      "poster": "posters/bathroom.jpg",
+      "duration": 1.84,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Home/Bathroom/Home__Bathroom__MVI_4902.MOV"
+      },
+      "anim": "anim/bathroom.json",
+      "video3d": "saathi3d/bathroom.mp4",
+      "poster3d": "saathi3d/bathroom.jpg"
+    },
+    {
+      "id": "bed",
+      "label": "Bed",
+      "category": "thing",
+      "video": "videos/bed.mp4",
+      "poster": "posters/bed.jpg",
+      "duration": 2.44,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Home/Bed/Home__Bed__MVI_9008.MP4"
+      },
+      "anim": "anim/bed.json",
+      "video3d": "saathi3d/bed.mp4",
+      "poster3d": "saathi3d/bed.jpg"
+    },
+    {
+      "id": "telephone",
+      "label": "Telephone",
+      "category": "thing",
+      "video": "videos/telephone.mp4",
+      "poster": "posters/telephone.jpg",
+      "duration": 1.64,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Home/Telephone/Home__Telephone__MVI_4938.MOV"
+      },
+      "anim": "anim/telephone.json",
+      "video3d": "saathi3d/telephone.mp4",
+      "poster3d": "saathi3d/telephone.jpg"
+    },
+    {
+      "id": "money",
+      "label": "Money",
+      "category": "thing",
+      "video": "videos/money.mp4",
+      "poster": "posters/money.jpg",
+      "duration": 1.6,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Society/Money/Society__Money__MVI_4807.MOV"
+      },
+      "anim": "anim/money.json",
+      "video3d": "saathi3d/money.mp4",
+      "poster3d": "saathi3d/money.jpg"
+    },
+    {
+      "id": "today",
+      "label": "Today",
+      "category": "time",
+      "video": "videos/today.mp4",
+      "poster": "posters/today.jpg",
+      "duration": 1.6,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Today/Days_and_Time__Today__MVI_9161.MP4"
+      },
+      "anim": "anim/today.json",
+      "video3d": "saathi3d/today.mp4",
+      "poster3d": "saathi3d/today.jpg"
+    },
+    {
+      "id": "tomorrow",
+      "label": "Tomorrow",
+      "category": "time",
+      "video": "videos/tomorrow.mp4",
+      "poster": "posters/tomorrow.jpg",
+      "duration": 1.8,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Tomorrow/Days_and_Time__Tomorrow__MVI_5036.MOV"
+      },
+      "anim": "anim/tomorrow.json",
+      "video3d": "saathi3d/tomorrow.mp4",
+      "poster3d": "saathi3d/tomorrow.jpg"
+    },
+    {
+      "id": "yesterday",
+      "label": "Yesterday",
+      "category": "time",
+      "video": "videos/yesterday.mp4",
+      "poster": "posters/yesterday.jpg",
+      "duration": 1.84,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Yesterday/Days_and_Time__Yesterday__MVI_5037.MOV"
+      },
+      "anim": "anim/yesterday.json",
+      "video3d": "saathi3d/yesterday.mp4",
+      "poster3d": "saathi3d/yesterday.jpg"
+    },
+    {
+      "id": "morning",
+      "label": "Morning",
+      "category": "time",
+      "video": "videos/morning.mp4",
+      "poster": "posters/morning.jpg",
+      "duration": 1.64,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Morning/Days_and_Time__Morning__MVI_9188.MP4"
+      },
+      "anim": "anim/morning.json",
+      "video3d": "saathi3d/morning.mp4",
+      "poster3d": "saathi3d/morning.jpg"
+    },
+    {
+      "id": "night",
+      "label": "Night",
+      "category": "time",
+      "video": "videos/night.mp4",
+      "poster": "posters/night.jpg",
+      "duration": 1.36,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Night/Days_and_Time__Night__MVI_9197.MP4"
+      },
+      "anim": "anim/night.json",
+      "video3d": "saathi3d/night.mp4",
+      "poster3d": "saathi3d/night.jpg"
+    }
+  ]
+}

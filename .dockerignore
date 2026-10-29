@@ -1,0 +1,14 @@
+node_modules
+**/node_modules
+**/.next
+**/.venv
+ml/data
+ml/runs
+ml/mlruns
+ml/mlflow.db
+certs
+**/.env
+.git
+frontend/public/mediapipe
+frontend/public/ort
+frontend/public/sign-library

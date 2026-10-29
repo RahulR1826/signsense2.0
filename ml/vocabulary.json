@@ -1,0 +1,363 @@
+{
+  "version": 2,
+  "language": "ISL",
+  "note": "v2: words available in the INCLUDE dataset (CC BY 4.0, Sridhar et al. 2020, zenodo.org/records/4010759). 'include' maps each sign to its INCLUDE category/word. Basic-needs signs (help, water, food, yes, no, ...) are not in INCLUDE and come later via guided recording. Never substitute ASL signs.",
+  "signs": [
+    {
+      "id": "hello",
+      "label": "Hello",
+      "category": "greeting",
+      "include": {
+        "category": "Greetings",
+        "word": "Hello"
+      }
+    },
+    {
+      "id": "thank_you",
+      "label": "Thank you",
+      "category": "greeting",
+      "include": {
+        "category": "Greetings",
+        "word": "Thank you"
+      }
+    },
+    {
+      "id": "how_are_you",
+      "label": "How are you",
+      "category": "greeting",
+      "include": {
+        "category": "Greetings",
+        "word": "How are you"
+      }
+    },
+    {
+      "id": "good_morning",
+      "label": "Good morning",
+      "category": "greeting",
+      "include": {
+        "category": "Greetings",
+        "word": "Good Morning"
+      }
+    },
+    {
+      "id": "good_night",
+      "label": "Good night",
+      "category": "greeting",
+      "include": {
+        "category": "Greetings",
+        "word": "Good night"
+      }
+    },
+    {
+      "id": "mother",
+      "label": "Mother",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Mother"
+      }
+    },
+    {
+      "id": "father",
+      "label": "Father",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Father"
+      }
+    },
+    {
+      "id": "brother",
+      "label": "Brother",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Brother"
+      }
+    },
+    {
+      "id": "sister",
+      "label": "Sister",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Sister"
+      }
+    },
+    {
+      "id": "grandmother",
+      "label": "Grandmother",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Grandmother"
+      }
+    },
+    {
+      "id": "grandfather",
+      "label": "Grandfather",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Grandfather"
+      }
+    },
+    {
+      "id": "friend",
+      "label": "Friend",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Friend"
+      }
+    },
+    {
+      "id": "baby",
+      "label": "Baby",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Baby"
+      }
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "category": "family",
+      "include": {
+        "category": "People",
+        "word": "Family"
+      }
+    },
+    {
+      "id": "i",
+      "label": "I / me",
+      "category": "people",
+      "include": {
+        "category": "Pronouns",
+        "word": "I"
+      }
+    },
+    {
+      "id": "you",
+      "label": "You",
+      "category": "people",
+      "include": {
+        "category": "Pronouns",
+        "word": "you"
+      }
+    },
+    {
+      "id": "sick",
+      "label": "Sick",
+      "category": "health",
+      "include": {
+        "category": "Adjectives",
+        "word": "sick"
+      }
+    },
+    {
+      "id": "healthy",
+      "label": "Healthy",
+      "category": "health",
+      "include": {
+        "category": "Adjectives",
+        "word": "healthy"
+      }
+    },
+    {
+      "id": "doctor",
+      "label": "Doctor",
+      "category": "health",
+      "include": {
+        "category": "Jobs",
+        "word": "Doctor"
+      }
+    },
+    {
+      "id": "hospital",
+      "label": "Hospital",
+      "category": "health",
+      "include": {
+        "category": "Places",
+        "word": "Hospital"
+      }
+    },
+    {
+      "id": "medicine",
+      "label": "Medicine",
+      "category": "health",
+      "include": {
+        "category": "Society",
+        "word": "Medicine"
+      }
+    },
+    {
+      "id": "hot",
+      "label": "Hot",
+      "category": "feeling",
+      "include": {
+        "category": "Adjectives",
+        "word": "hot"
+      }
+    },
+    {
+      "id": "cold",
+      "label": "Cold",
+      "category": "feeling",
+      "include": {
+        "category": "Adjectives",
+        "word": "cold"
+      }
+    },
+    {
+      "id": "good",
+      "label": "Good",
+      "category": "feeling",
+      "include": {
+        "category": "Adjectives",
+        "word": "good"
+      }
+    },
+    {
+      "id": "bad",
+      "label": "Bad",
+      "category": "feeling",
+      "include": {
+        "category": "Adjectives",
+        "word": "bad"
+      }
+    },
+    {
+      "id": "happy",
+      "label": "Happy",
+      "category": "feeling",
+      "include": {
+        "category": "Adjectives",
+        "word": "happy"
+      }
+    },
+    {
+      "id": "sad",
+      "label": "Sad",
+      "category": "feeling",
+      "include": {
+        "category": "Adjectives",
+        "word": "sad"
+      }
+    },
+    {
+      "id": "house",
+      "label": "House / home",
+      "category": "place",
+      "include": {
+        "category": "Places",
+        "word": "House"
+      }
+    },
+    {
+      "id": "school",
+      "label": "School",
+      "category": "place",
+      "include": {
+        "category": "Places",
+        "word": "School"
+      }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "category": "place",
+      "include": {
+        "category": "Places",
+        "word": "Store or Shop"
+      }
+    },
+    {
+      "id": "bathroom",
+      "label": "Bathroom",
+      "category": "place",
+      "include": {
+        "category": "Home",
+        "word": "Bathroom"
+      }
+    },
+    {
+      "id": "bed",
+      "label": "Bed",
+      "category": "thing",
+      "include": {
+        "category": "Home",
+        "word": "Bed"
+      }
+    },
+    {
+      "id": "telephone",
+      "label": "Telephone",
+      "category": "thing",
+      "include": {
+        "category": "Home",
+        "word": "Telephone"
+      }
+    },
+    {
+      "id": "money",
+      "label": "Money",
+      "category": "thing",
+      "include": {
+        "category": "Society",
+        "word": "Money"
+      }
+    },
+    {
+      "id": "today",
+      "label": "Today",
+      "category": "time",
+      "include": {
+        "category": "Days_and_Time",
+        "word": "Today"
+      }
+    },
+    {
+      "id": "tomorrow",
+      "label": "Tomorrow",
+      "category": "time",
+      "include": {
+        "category": "Days_and_Time",
+        "word": "Tomorrow"
+      }
+    },
+    {
+      "id": "yesterday",
+      "label": "Yesterday",
+      "category": "time",
+      "include": {
+        "category": "Days_and_Time",
+        "word": "Yesterday"
+      }
+    },
+    {
+      "id": "morning",
+      "label": "Morning",
+      "category": "time",
+      "include": {
+        "category": "Days_and_Time",
+        "word": "Morning"
+      }
+    },
+    {
+      "id": "night",
+      "label": "Night",
+      "category": "time",
+      "include": {
+        "category": "Days_and_Time",
+        "word": "Night"
+      }
+    },
+    {
+      "id": "no_sign",
+      "label": "No sign (rest / fidget / talk)",
+      "category": "control"
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "model": "saathi.glb",
+  "clips": [
+    {
+      "id": "baby",
+      "clip": "baby",
+      "frames": 43,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Baby/People__Baby__MVI_4067.MOV",
+        "frames": [
+          12,
+          54
+        ]
+      }
+    },
+    {
+      "id": "bad",
+      "clip": "bad",
+      "frames": 37,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/bad/Adjectives__bad__MVI_5241.MOV",
+        "frames": [
+          2,
+          38
+        ]
+      }
+    },
+    {
+      "id": "bathroom",
+      "clip": "bathroom",
+      "frames": 45,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Home/Bathroom/Home__Bathroom__MVI_4902.MOV",
+        "frames": [
+          4,
+          48
+        ]
+      }
+    },
+    {
+      "id": "bed",
+      "clip": "bed",
+      "frames": 61,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Home/Bed/Home__Bed__MVI_9008.MP4",
+        "frames": [
+          10,
+          70
+        ]
+      }
+    },
+    {
+      "id": "brother",
+      "clip": "brother",
+      "frames": 47,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Brother/People__Brother__MVI_3781.MOV",
+        "frames": [
+          14,
+          60
+        ]
+      }
+    },
+    {
+      "id": "cold",
+      "clip": "cold",
+      "frames": 65,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/cold/Adjectives__cold__MVI_9490.MOV",
+        "frames": [
+          0,
+          64
+        ]
+      }
+    },
+    {
+      "id": "doctor",
+      "clip": "doctor",
+      "frames": 43,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Jobs/Doctor/Jobs__Doctor__MVI_4754.MOV",
+        "frames": [
+          12,
+          54
+        ]
+      }
+    },
+    {
+      "id": "family",
+      "clip": "family",
+      "frames": 45,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Family/People__Family__MVI_4081.MOV",
+        "frames": [
+          4,
+          48
+        ]
+      }
+    },
+    {
+      "id": "father",
+      "clip": "father",
+      "frames": 49,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Father/People__Father__MVI_3763.MOV",
+        "frames": [
+          2,
+          50
+        ]
+      }
+    },
+    {
+      "id": "friend",
+      "clip": "friend",
+      "frames": 47,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Friend/People__Friend__MVI_3977.MOV",
+        "frames": [
+          0,
+          46
+        ]
+      }
+    },
+    {
+      "id": "good",
+      "clip": "good",
+      "frames": 48,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/good/Adjectives__good__MVI_9512.MOV",
+        "frames": [
+          2,
+          49
+        ]
+      }
+    },
+    {
+      "id": "good_morning",
+      "clip": "good_morning",
+      "frames": 55,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Good Morning/Greetings__Good_Morning__MVI_0042.MOV",
+        "frames": [
+          14,
+          68
+        ]
+      }
+    },
+    {
+      "id": "good_night",
+      "clip": "good_night",
+      "frames": 61,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Good night/Greetings__Good_night__MVI_9983.MOV",
+        "frames": [
+          4,
+          64
+        ]
+      }
+    },
+    {
+      "id": "grandfather",
+      "clip": "grandfather",
+      "frames": 78,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Grandfather/People__Grandfather__MVI_3937.MOV",
+        "frames": [
+          6,
+          83
+        ]
+      }
+    },
+    {
+      "id": "grandmother",
+      "clip": "grandmother",
+      "frames": 77,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Grandmother/People__Grandmother__MVI_3940.MOV",
+        "frames": [
+          6,
+          82
+        ]
+      }
+    },
+    {
+      "id": "happy",
+      "clip": "happy",
+      "frames": 50,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/happy/Adjectives__happy__MVI_9540.MOV",
+        "frames": [
+          0,
+          49
+        ]
+      }
+    },
+    {
+      "id": "healthy",
+      "clip": "healthy",
+      "frames": 61,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/healthy/Adjectives__healthy__MVI_9530.MOV",
+        "frames": [
+          0,
+          60
+        ]
+      }
+    },
+    {
+      "id": "hello",
+      "clip": "hello",
+      "frames": 43,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Hello/Greetings__Hello__MVI_9954.MOV",
+        "frames": [
+          8,
+          50
+        ]
+      }
+    },
+    {
+      "id": "hospital",
+      "clip": "hospital",
+      "frames": 57,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/Hospital/Places__Hospital__MVI_3315.MOV",
+        "frames": [
+          4,
+          60
+        ]
+      }
+    },
+    {
+      "id": "hot",
+      "clip": "hot",
+      "frames": 59,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/hot/Adjectives__hot__MVI_9489.MOV",
+        "frames": [
+          0,
+          58
+        ]
+      }
+    },
+    {
+      "id": "house",
+      "clip": "house",
+      "frames": 47,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/House/Places__House__MVI_3438.MOV",
+        "frames": [
+          4,
+          50
+        ]
+      }
+    },
+    {
+      "id": "how_are_you",
+      "clip": "how_are_you",
+      "frames": 75,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/How are you/Greetings__How_are_you__MVI_0036.MOV",
+        "frames": [
+          12,
+          86
+        ]
+      }
+    },
+    {
+      "id": "i",
+      "clip": "i",
+      "frames": 35,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Pronouns/I/Pronouns__I__MVI_9959.MOV",
+        "frames": [
+          0,
+          34
+        ]
+      }
+    },
+    {
+      "id": "medicine",
+      "clip": "medicine",
+      "frames": 45,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Society/Medicine/Society__Medicine__MVI_8934.MP4",
+        "frames": [
+          6,
+          50
+        ]
+      }
+    },
+    {
+      "id": "money",
+      "clip": "money",
+      "frames": 39,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Society/Money/Society__Money__MVI_4807.MOV",
+        "frames": [
+          8,
+          46
+        ]
+      }
+    },
+    {
+      "id": "morning",
+      "clip": "morning",
+      "frames": 41,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Morning/Days_and_Time__Morning__MVI_9188.MP4",
+        "frames": [
+          2,
+          42
+        ]
+      }
+    },
+    {
+      "id": "mother",
+      "clip": "mother",
+      "frames": 43,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Mother/People__Mother__MVI_4057.MOV",
+        "frames": [
+          8,
+          50
+        ]
+      }
+    },
+    {
+      "id": "night",
+      "clip": "night",
+      "frames": 35,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Night/Days_and_Time__Night__MVI_9197.MP4",
+        "frames": [
+          6,
+          40
+        ]
+      }
+    },
+    {
+      "id": "sad",
+      "clip": "sad",
+      "frames": 37,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/sad/Adjectives__sad__MVI_9565.MOV",
+        "frames": [
+          4,
+          40
+        ]
+      }
+    },
+    {
+      "id": "school",
+      "clip": "school",
+      "frames": 47,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/School/Places__School__MVI_3371.MOV",
+        "frames": [
+          4,
+          50
+        ]
+      }
+    },
+    {
+      "id": "shop",
+      "clip": "shop",
+      "frames": 41,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Places/Store or Shop/Places__Store_or_Shop__MVI_3472.MOV",
+        "frames": [
+          8,
+          48
+        ]
+      }
+    },
+    {
+      "id": "sick",
+      "clip": "sick",
+      "frames": 47,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Adjectives/sick/Adjectives__sick__MVI_9444.MOV",
+        "frames": [
+          4,
+          50
+        ]
+      }
+    },
+    {
+      "id": "sister",
+      "clip": "sister",
+      "frames": 65,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "People/Sister/People__Sister__MVI_3931.MOV",
+        "frames": [
+          2,
+          66
+        ]
+      }
+    },
+    {
+      "id": "telephone",
+      "clip": "telephone",
+      "frames": 41,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Home/Telephone/Home__Telephone__MVI_4938.MOV",
+        "frames": [
+          4,
+          44
+        ]
+      }
+    },
+    {
+      "id": "thank_you",
+      "clip": "thank_you",
+      "frames": 45,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Greetings/Thank you/Greetings__Thank_you__MVI_0007.MOV",
+        "frames": [
+          0,
+          44
+        ]
+      }
+    },
+    {
+      "id": "today",
+      "clip": "today",
+      "frames": 39,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Today/Days_and_Time__Today__MVI_9161.MP4",
+        "frames": [
+          10,
+          48
+        ]
+      }
+    },
+    {
+      "id": "tomorrow",
+      "clip": "tomorrow",
+      "frames": 45,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Tomorrow/Days_and_Time__Tomorrow__MVI_5036.MOV",
+        "frames": [
+          0,
+          44
+        ]
+      }
+    },
+    {
+      "id": "yesterday",
+      "clip": "yesterday",
+      "frames": 47,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Days_and_Time/Yesterday/Days_and_Time__Yesterday__MVI_5037.MOV",
+        "frames": [
+          4,
+          50
+        ]
+      }
+    },
+    {
+      "id": "you",
+      "clip": "you",
+      "frames": 45,
+      "fps": 25.0,
+      "source": {
+        "dataset": "INCLUDE",
+        "file": "Pronouns/you/Pronouns__you__MVI_9997.MOV",
+        "frames": [
+          12,
+          56
+        ]
+      }
+    }
+  ]
+}
